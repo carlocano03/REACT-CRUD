@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.form input {
+  width: 20rem;
+  height: 3rem;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.form button {
+  border: none;
+  padding: 10px 25px 10px  25px;
+  background: #d35400;
+  color:#fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
+
+.card{
+  border: 1px solid black;
+  width: 500px;
+  height: 180px;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.card .delete {
+  border: none;
+  padding: 10px 25px 10px  25px;
+  background: #c0392b;
+  color:#fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+.card .update {
+  border: none;
+  padding: 10px 25px 10px  25px;
+  background: #27ae60;
+  color:#fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.card .update:hover,
+.card .delete:hover {
+  opacity: 0.8;
+}
+
+.table-list{
+  width: 80%;
+}
+
+.table-list th, .table-list td{
+  border: 1px solid black;
+}
